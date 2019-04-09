@@ -15,7 +15,7 @@
  **/
 
 #import <EasyFoundation/EasyFoundation.h>
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @class EZRNode;
 @class EZTuple2;

@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-@import Foundation;
+#import <Foundation/Foundation.h>;
 
 #ifndef EZR_META_MACRO_H
 #define EZR_META_MACRO_H

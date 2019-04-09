@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 /**
  A value object that defines empty.

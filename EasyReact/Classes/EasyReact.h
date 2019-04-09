@@ -14,7 +14,7 @@
  * limitations under the License.
  **/
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 //! Project version number for Expecta.
 FOUNDATION_EXPORT double EasyReactVersionNumber;
