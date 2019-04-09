@@ -86,7 +86,7 @@ static inline EZSFliterBlock _EZR_PropertyExists(NSString *keyPath) {
     NSString *_settingQueueKey;
 }
 
-@synthesize value = _value, name = _name, mutable = _mutable;
+@synthesize value = _value, name = _name, ezmutable = _ezmutable;
 
 #pragma mark initializer
 
@@ -111,7 +111,7 @@ static inline EZSFliterBlock _EZR_PropertyExists(NSString *keyPath) {
 - (instancetype)initWithValue:(id)value mutable:(BOOL)isMutable {
     if (self = [super initDirectly]) {
         _value = value;
-        _mutable = isMutable;
+        _ezmutable = isMutable;
         _privateListenEdges = @[];
         _privateUpstreamTransforms = @[];
         _privateDownstreamTransforms = @[];

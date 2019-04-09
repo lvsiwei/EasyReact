@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
     EZR_LOCK_DEF(_listenEdgeLock);
 }
 
-@property (atomic, assign, getter=isMutable) BOOL mutable;
+@property (atomic, assign, getter=isMutable) BOOL ezmutable;
 @property (atomic, copy) NSArray<id<EZRTransformEdge>> *privateUpstreamTransforms;
 @property (atomic, copy) NSArray<EZSWeakReference<id<EZRTransformEdge>> *> *privateDownstreamTransforms;
 @property (atomic, copy) NSArray<EZSWeakReference<id<EZRListenEdge>> *> *privateListenEdges;

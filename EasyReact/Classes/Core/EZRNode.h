@@ -43,7 +43,7 @@ extern NSString *EZRExceptionReason_CannotModifyEZRNode;
 /**
  A Boolean value that indicates whether the receiver is mutable.
  */
-@property (atomic, readonly, assign, getter=isMutable) BOOL mutable;
+@property (atomic, readonly, assign, getter=isMutable) BOOL ezmutable;
 
 /**
  An array of the receiver's upstream nodes.

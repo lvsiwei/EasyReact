@@ -21,7 +21,7 @@
 
 - (EZRMutableNode *)mutablify {
     EZRMutableNode *node = (EZRMutableNode *)self;
-    node.mutable = YES;
+    node.ezmutable = YES;
     return node;
 }
 
